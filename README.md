@@ -1,5 +1,17 @@
 # Practical Vim - Tips and Exercises
 
+## Tip 15 - Past from a register without leaving normal mode
+<C-r>{register} paste register content in insert mode (e.i. <C-r>+, paste from
+system clipboard)
+
+## Tip 13 - Move in insert mode
+
+<C-h> Delete back one character
+<C-w> Delete back one word
+<C-u> Delete back to start of line
+
+<C-o> Switch to Insert Normal mode
+
 ## Tip 11 - Combine and conquer
 
 Sample of operator commands
