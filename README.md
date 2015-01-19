@@ -1,6 +1,15 @@
 # Practical Vim - Tips and Exercises
 
+## Tip 21 - Visual modes
+
+In visual mode you can switch between visual modes the same way as normal mode.
+
+v | visual char
+V | visual line
+<C-v> | visual block
+
 ## Tip 15 - Past from a register without leaving normal mode
+
 <C-r>{register} paste register content in insert mode (e.i. <C-r>+, paste from
 system clipboard)
 
