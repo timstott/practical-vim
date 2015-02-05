@@ -1,5 +1,11 @@
 # Practical Vim - Tips and Exercises
 
+## Tip 26 - Append afer a ragged visual block
+
+var hello = 'world';
+var ok = true;
+var foo = 1;
+
 ## Tip 21 - Visual modes
 
 In visual mode you can switch between visual modes the same way as normal mode.
