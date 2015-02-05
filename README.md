@@ -1,5 +1,19 @@
 # Practical Vim - Tips and Exercises
 
+## Tip 28 - Execute a command on one more consecutive lines
+Line numbers as address
+:2,6p
+Echo lines 2 to 6
+
+:{start},{end}
+
+Symbols
+
+number | line number
+.      | current line
+$      | end of file
+%      | all lines in current file
+
 ## Tip 26 - Append afer a ragged visual block
 
 var hello = 'world';
