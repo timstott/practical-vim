@@ -1,6 +1,11 @@
 # Practical Vim - Tips and Exercises
 
+## Tip X
+
+Exit inset and visual mode with <C-c>
+
 ## Tip 28 - Execute a command on one more consecutive lines
+
 Line numbers as address
 :2,6p
 Echo lines 2 to 6
@@ -9,6 +14,8 @@ Echo lines 2 to 6
 
 Symbols
 
+       | description
+-------|------------
 number | line number
 .      | current line
 $      | end of file
@@ -24,20 +31,33 @@ var foo = 1;
 
 In visual mode you can switch between visual modes the same way as normal mode.
 
-v | visual char
-V | visual line
+      | description
+------|------------
+v     | visual char
+V     | visual line
 <C-v> | visual block
 
 ## Tip 15 - Past from a register without leaving normal mode
 
-<C-r>{register} paste register content in insert mode (e.i. <C-r>+, paste from
-system clipboard)
+In insert mode, paste content from register
+
+registers | description
+----------|-----------------
+ +        | system clipboard
+ "        | text of last deleted or yanked line
+
+keys            | description
+----------------|-----------------------
+<C-r>{register} | paste content from register
+<C-r><C-p>{register} | paste from register and fix indent
 
 ## Tip 13 - Move in insert mode
 
-<C-h> Delete back one character
-<C-w> Delete back one word
-<C-u> Delete back to start of line
+      | description
+------|--------------------------
+<C-h> | Delete back one character
+<C-w> | Delete back one word
+<C-u> | Delete back to start of line
 
 <C-o> Switch to Insert Normal mode
 
@@ -45,6 +65,7 @@ system clipboard)
 
 Sample of operator commands
 
+   |
 ---|---------------
 c  | change
 g~ | swap case
