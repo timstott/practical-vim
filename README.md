@@ -1,5 +1,17 @@
 # Practical Vim - Tips and Exercises
 
+## Duplicate and move lines using `:t` and `:m` commands
+
+Copy the end of the document to below current cursor
+:$copy.
+:$t.
+
+Copy current line to below line 6
+:t6
+
+Move the end of document to below current cursor
+:$m.
+
 ## Tip X
 
 Exit inset and visual mode with <C-c>
@@ -17,9 +29,13 @@ Symbols
        | description
 -------|------------
 number | line number
-.      | current line
+.      | current line (where the cursor is placed)
 $      | end of file
 %      | all lines in current file
+
+Offset from current line
+:.,.+3p
+Echo current line + 3 lines
 
 ## Tip 26 - Append afer a ragged visual block
 
@@ -53,13 +69,13 @@ keys            | description
 
 ## Tip 13 - Move in insert mode
 
-      | description
-------|--------------------------
-<C-h> | Delete back one character
-<C-w> | Delete back one word
-<C-u> | Delete back to start of line
+        | description
+--------|--------------------------
+`<C-h>` | Delete back one character
+`<C-w>` | Delete back one word
+`<C-u>` | Delete back to start of line
 
-<C-o> Switch to Insert Normal mode
+`<C-o>` Switch to Insert Normal mode
 
 ## Tip 11 - Combine and conquer
 
