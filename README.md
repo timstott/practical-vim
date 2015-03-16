@@ -1,5 +1,22 @@
 # Practical Vim - Tips and Exercises
 
+## Tip 30 - Run normal mode commands across range
+
+Do command on line (e.g. `A;`) and the repeat on visual selection or range
+`:'<,'>normal .`
+
+Or in a single command
+`:%normal A;`
+
+With macros
+`:%normal @a;`
+
+var foo = 1
+var ok = true
+var hello = 'world'
+var foobar = 'barbaz'
+
+
 ## Tip 29 - Duplicate and move lines using `:t` and `:m` commands
 
 Copy the end of the document to below current cursor
