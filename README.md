@@ -1,6 +1,6 @@
 # Practical Vim - Tips and Exercises
 
-## Duplicate and move lines using `:t` and `:m` commands
+## Tip 29 - Duplicate and move lines using `:t` and `:m` commands
 
 Copy the end of the document to below current cursor
 :$copy.
