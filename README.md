@@ -1,5 +1,17 @@
 # Practical Vim - Tips and Exercises
 
+## Tip 34 - Recall commands from history
+
+Use `<C-p>` or `<C-n>` instead of arrow keys (also works in terminal).
+
+Historical Ex commands command line window  `q:`.
+Historical search command line window  `q/`.
+Use `C-f` while in command line to enter command line window (both Ex and search)
+
+## Tip 33 - Insert the current word at the command prompt
+
+`:%s/<C-r><C-w>/something/g`
+
 ## Tip 30 - Run normal mode commands across range
 
 Do command on line (e.g. `A;`) and the repeat on visual selection or range
