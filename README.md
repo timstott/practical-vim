@@ -1,5 +1,11 @@
 # Practical Vim - Tips and Exercises
 
+## Tip 35 - Run commands in shell
+
+Send buffer content to stdin and use stdout to populate our buffer.
+
+:[range] ! sh
+
 ## Tip 34 - Recall commands from history
 
 Use `<C-p>` or `<C-n>` instead of arrow keys (also works in terminal).
